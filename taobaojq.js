@@ -1,0 +1,15 @@
+$(document).ready(function(){
+	$(".myTaobao-list").hide();
+	$(".myTaobao").mouseenter(function(){
+		$(".myTaobao-list").show();
+	});
+	$(".myTaobao").mouseleave(function(){
+		$(".myTaobao-list").hide(100);
+	});
+	$(".myTaobao-list").mouseenter(function(){
+		$(".myTaobao-list").show();
+	});
+	$(".myTaobao-list").mouseleave(function(){
+		$(".myTaobao-list").hide(100);
+	});
+})
